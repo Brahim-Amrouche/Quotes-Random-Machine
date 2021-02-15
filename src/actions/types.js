@@ -1,0 +1,3 @@
+export const GET_QUOTES="GET_QUOTES";
+export const DELETE_QUOTES="DELETE_QUOTES";
+export const QUOTES_LOADING="QUOTES_LOADING";

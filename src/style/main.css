@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Rambla:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: white;
+}
+
+#quote-box {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: conic-gradient(from 178.85deg at 51.87% 50%, rgba(234, 239, 1, 0.6) -80.62deg, #3DC19A 116.25deg, rgba(234, 239, 1, 0.6) 279.38deg, #3DC19A 476.25deg), #8A6D6D;
+  mix-blend-mode: darken;
+}
+
+.content-holder {
+  position: absolute;
+  background: #E4E9DF;
+  border-radius: 20px;
+  top: 25vh;
+  left: 50vw;
+  height: 55vh;
+  width: 45vw;
+}
+
+.content-holder img {
+  position: relative;
+  width: 4vw;
+  height: 4vw;
+}
+
+.content-holder #text {
+  position: relative;
+  width: 80%;
+  height: 50%;
+  left: 10%;
+  font-family: 'Rambla', sans-serif;
+  font-size: 1.7vw;
+  line-height: 2vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.content-holder #author {
+  position: relative;
+  left: 5vw;
+  top: 3vw;
+  font-family: 'Rambla', sans-serif;
+  font-size: 1.4vw;
+  font-weight: bold;
+}
+
+.content-holder #reverse-quote {
+  float: right;
+  right: 1vw;
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+}
+
+.content-holder #normal-quote {
+  left: 1vw;
+}
+
+.content-holder #tweet-quote {
+  position: relative;
+  display: block;
+  width: 5vw;
+  height: 4vw;
+  top: 10%;
+  left: 90%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background: #00A7DC;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#twitter-img {
+  width: 3vw;
+  height: 3vw;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: none;
+}
+
+#new-quote {
+  position: relative;
+  left: 15%;
+  top: 25vh;
+  height: 5vw;
+  width: 10vw;
+  background: #D16161;
+  border-radius: 10px;
+  border: none;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1.2vw;
+  cursor: pointer;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: none;
+  -webkit-transition: 0.8s all;
+  transition: 0.8s all;
+}
+
+#new-quote:hover {
+  background-color: #E4E9DF;
+}
+
+#loading {
+  text-align: center;
+  line-height: 25vw;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1.3vw;
+}
+/*# sourceMappingURL=main.css.map */
